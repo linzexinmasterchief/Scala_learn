@@ -11,4 +11,11 @@ object Hello extends App {
   var h = new HelloWorld()
   var s = h.sayHi()
   println(s)
+
+  var dog = new Dog("aaa")
+  dog.speak()
+  dog.startRunning()
+
+  var cat = new Cat("cat01")
+  cat.startRunning()
 }
